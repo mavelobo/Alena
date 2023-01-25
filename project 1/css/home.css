@@ -1,0 +1,201 @@
+.full
+{
+padding:0 !important;
+}
+
+.top
+{
+padding:0 !important;
+}
+
+.bg-image-top{
+   /*align-items: center;
+    margin:0 auto;*/
+
+}
+.bg-image1
+{
+   
+    background: url("homepage.png") no-repeat center center/cover ;
+    width: 100%;
+    height:100%;
+    position:relative;
+
+}
+
+.bg-image1::after
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:0;
+    height:100%;
+    background:transparent linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+}
+
+
+.logo
+{   
+    position: relative;
+    color: red;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    font-size: 70px;
+    background-color: white;
+    text-align: center;
+    /* opacity: 100%; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0 auto;
+}
+
+
+.top-section{
+    position: relative;
+    z-index:2;
+    margin-top:50px;
+}
+
+nav{
+    display:flex;
+    /*justify-content:space-between;*/
+   /* align-items: center;*/
+}
+
+.nav-links{
+    text-align: right;
+    flex:1;
+    position:relative;
+    padding-top:20px;
+    /*z-index:2;*/
+}
+
+.nav-links ul li{
+    list-style:none;
+    display:inline-block;
+    /*position:relative;*/
+}
+
+.nav-links ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+#create{
+    background:transparent;
+    color:white;
+    font-size:1rem;
+    margin-left:.7rem;
+    border:1px solid white;
+}
+
+
+.location{
+    padding: 10px 20px;
+    width:35%;
+    height:60px;
+    font:normal normal normal 15px/23px Poppins;
+    letter-spacing:0px;
+    color:#636F88;
+    opacity:1;
+
+}
+.location-finder{
+    display: flex;
+    flex-direction: row;
+max-width: 640px;
+margin:1rem auto;
+padding-bottom:  100px;
+}
+.search{
+    width:60%;
+    height:60px;
+    margin-left:20px;
+    font: normal normal normal 15px/23px Poppins;
+    
+}
+.search i{
+
+    position:absolute;
+    padding-left:20px;
+    padding-top:15px;
+    padding-right: 0px;
+    color:#636F88;
+}
+.restaurant{
+width:100%;
+padding-left:40px;
+    padding-top:15px;
+    padding-right: 0px;
+    color:#636F88;
+    padding-bottom:15px;
+    font: normal normal normal 15px/23px Poppins;
+}
+
+.heading{
+    text-align: center;
+    color:white;
+    position:relative;
+    margin:1rem auto;
+}
+
+.quick-heading{
+padding-top: 30px;
+padding-bottom: 20px;
+font: normal normal bold 30px/20px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+}
+
+.quick-text{
+    font: normal normal normal 18px/20px Poppins;
+  letter-spacing: 0px;
+  color: #8C96AB;
+
+}
+.qs-image{
+        width:90%;
+        height:100%;
+}
+
+
+.qs{
+    margin-bottom: 50px;
+}
+
+.card-horizontal{
+    display: flex;
+  flex: 1 1 auto;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  text-align: left;
+  cursor: pointer;
+}
+.img1{
+    text-align: left;
+    
+   }
+.qs-text-part{
+    margin: 1rem 1rem;
+}
+
+.qs-col h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #192F60;
+}
+.qs-col h5{
+    font: normal normal normal 14px/21px Poppins;
+    color: #8C96AB;
+}
+
+
+@media only screen and (max-width:320px)
+{
+    .full{
+        width: 320px !important;
+    }
+}

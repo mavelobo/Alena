@@ -1,0 +1,12 @@
+Flask
+Django documentation: Tutorial: Part 1: Requests and responses | Part 2: Models and the admin site | Part 3: Views and templates | Part 4: Forms and generic views
+making a pools app in django
+Our project is based on the bus transport management system. It is a computerized system that involves managing and operating the workflow of buses.
+This project helps to deliver the relevance and importance of a bus transport management system since it is frequently used in Mangalore for travelling
+from place to place within the city as well as outside the city. It is projected towards enhancing the relationship between customers and the buses,
+thereby making it convenient for customers to book buses and to track it with ease. It also caters to the passenger’s safety and comfort by providing easy
+and free cancellation of reservations. We chose this topic because of the ever-growing demand for bus transportation. Hence, there was a need for convenient
+ booking of buses and an effective computerized administrative system which tracks these buses. It is a user-friendly application which generates a unique
+PNR number for all passengers and assures a reliable service. The bus transport management system contains a database of reservations and tickets issued to
+provide regular service in and around Mangalore. Since the details of the passengers will be stored in a database, the data will be safe and confidential.
+Some aspects which will be covered in this project are as follows: HTML, CSS, Bootstrap, Google Maps API, CSV and Python.
